@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.help_wildfire.help_wildfire.CadastroActivity"
+    tools:context="com.help_wildfire.help_wildfire.usuario.gui.CadastroActivity"
     tools:showIn="@layout/activity_cadastro">
 
 </android.support.constraint.ConstraintLayout>
