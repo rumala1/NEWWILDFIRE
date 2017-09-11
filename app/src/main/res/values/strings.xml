@@ -1,4 +1,16 @@
 <resources>
     <string name="app_name">Help-Wildfire</string>
     <string name="title_activity_cadastro">CadastroActivity</string>
+
+    <!-- Validacao -->
+    <string name="login_valUsuario">Usuário obrigatório.</string>
+    <string name="login_valSenha">Senha obrigatória.</string>
+    <string name="campo_obrigatorio">Campo obrigatório.</string>
+    <string name="login_valEmail">E-mail obrigatório.</string>
+
+    <!-- Mensagens -->
+    <string name="msg_login_incorreto"> Usuário ou senha inválidos</string>
+    <string name="title_activity_cad_usuario">CadUsuarioActivity</string>
+    <string name="mensagem_cadastro">Cadastrado com sucesso.</string>
+    <string name="mensagem_erro">Este login ja esta em uso, tente outro.</string>
 </resources>

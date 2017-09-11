@@ -11,17 +11,17 @@
         android:layout_height="495dp"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp">
+        tools:layout_editor_absoluteY="0dp">
 
         <TextView
             android:id="@+id/textView5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Usuário:"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/editText5"
+            android:id="@+id/login_edtUsuario"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -33,29 +33,43 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Senha:"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/editText6"
+            android:id="@+id/login_edtSenha"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPassword" />
+
+        <CheckBox
+            android:id="@+id/login_ckbConectado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Manter-se Conectado" />
 
         <Button
             android:id="@+id/button3"
             android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="entrar"
-            android:onClick="entrar"/>
+            android:onClick="entrar"
+            android:text="entrar" />
 
         <Button
             android:id="@+id/button4"
             android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="cadastrar"
-            android:onClick="cadastrar"/>
+            android:onClick="cadastrar"
+            android:text="cadastrar" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="check areas"
+            android:onClick="checar"/>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
