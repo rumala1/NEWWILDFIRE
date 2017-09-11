@@ -13,4 +13,6 @@
     <string name="title_activity_cad_usuario">CadUsuarioActivity</string>
     <string name="mensagem_cadastro">Cadastrado com sucesso.</string>
     <string name="mensagem_erro">Este login ja esta em uso, tente outro.</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_principal">PrincipalActivity</string>
 </resources>

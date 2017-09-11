@@ -10,7 +10,6 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 
 import com.help_wildfire.help_wildfire.R;
-import com.help_wildfire.help_wildfire.usuario.gui.CadastroActivity;
 import com.help_wildfire.help_wildfire.usuario.gui.dominio.Usuario;
 import com.help_wildfire.help_wildfire.usuario.gui.negocio.UsuarioNegocio;
 import com.help_wildfire.help_wildfire.usuario.gui.util.Mensagem;
@@ -90,7 +89,7 @@ public class LoginActivity extends AppCompatActivity {
         finish();
     }
     private void ChamarMainActivity(){
-        startActivity(new Intent(this, PrincipalActivity.class));
+        startActivity(new Intent(this, MapsFragment.class));
         finish();
     }
 }
