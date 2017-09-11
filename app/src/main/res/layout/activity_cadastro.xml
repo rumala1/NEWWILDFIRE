@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#fbc02d"
     tools:context="com.help_wildfire.help_wildfire.usuario.gui.CadastroActivity">
 
     <LinearLayout
@@ -27,7 +28,8 @@
             android:text="Nome:"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="0dp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:textSize="18dp"/>
 
         <EditText
             android:id="@+id/usuario_edtNome"
@@ -46,7 +48,8 @@
             android:text="Usuário:"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="59dp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:textSize="18dp"/>
 
         <EditText
             android:id="@+id/usuario_edtLogin"
@@ -65,7 +68,8 @@
             android:text="Senha:"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="119dp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:textSize="18dp"/>
 
         <EditText
             android:id="@+id/usuario_edtSenha"
@@ -83,7 +87,8 @@
             android:text="E-mail:"
             tools:layout_editor_absoluteX="-5dp"
             tools:layout_editor_absoluteY="178dp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:textSize="18dp"/>
 
         <EditText
             android:id="@+id/usuario_edtEmail"
@@ -103,7 +108,8 @@
             android:onClick="salvar"
             android:text="confirmar"
             tools:layout_editor_absoluteX="215dp"
-            tools:layout_editor_absoluteY="297dp" />
+            tools:layout_editor_absoluteY="297dp"
+            android:textSize="15dp"/>
 
         <Button
             android:id="@+id/button2"
@@ -114,6 +120,6 @@
             android:text="cancelar"
             tools:layout_editor_absoluteX="58dp"
             tools:layout_editor_absoluteY="297dp"
-            />
+            android:textSize="15dp"/>
     </LinearLayout>
 </android.support.design.widget.CoordinatorLayout>

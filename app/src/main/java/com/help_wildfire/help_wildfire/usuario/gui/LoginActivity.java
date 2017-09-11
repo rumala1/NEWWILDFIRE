@@ -82,14 +82,8 @@ public class LoginActivity extends AppCompatActivity {
         finish();
     }
 
-    public void checar(View view){
-        Intent intent = new Intent();
-        intent.setClass(this, PrincipalActivity.class);
-        startActivity(intent);
-        finish();
-    }
     private void ChamarMainActivity(){
-        startActivity(new Intent(this, MapsFragment.class));
+        startActivity(new Intent(this, MapsActivity.class));
         finish();
     }
 }

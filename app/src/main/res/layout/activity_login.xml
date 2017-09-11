@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#fbc02d"
     tools:context="com.help_wildfire.help_wildfire.usuario.gui.LoginActivity">
 
     <LinearLayout
@@ -18,7 +19,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Usuário:"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:textSize="18dp"/>
 
         <EditText
             android:id="@+id/login_edtUsuario"
@@ -33,7 +35,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Senha:"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:textSize="18dp"/>
 
         <EditText
             android:id="@+id/login_edtSenha"
@@ -46,7 +49,8 @@
             android:id="@+id/login_ckbConectado"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Manter-se Conectado" />
+            android:text="Manter-se Conectado"
+            android:textSize="14dp"/>
 
         <Button
             android:id="@+id/button3"
@@ -54,7 +58,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:onClick="entrar"
-            android:text="entrar" />
+            android:text="entrar"
+            android:textSize="14dp"/>
 
         <Button
             android:id="@+id/button4"
@@ -62,14 +67,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:onClick="cadastrar"
-            android:text="cadastrar" />
+            android:text="cadastrar"
+            android:textSize="14dp"/>
 
-        <Button
-            android:id="@+id/button5"
-            android:layout_width="110dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="check areas"
-            android:onClick="checar"/>
+        
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
